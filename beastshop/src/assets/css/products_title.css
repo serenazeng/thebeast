@@ -1,0 +1,24 @@
+#products-title {
+    height: 1.46rem;
+    padding: .32rem 0;
+    margin: 0 .5rem;
+    border-top: .06rem solid #d8d8d8;
+    overflow: hidden;
+}
+
+#products-title .text {
+    float: left;
+    font-size: .48rem;
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+#products-title .recom {
+    float: left;
+    font-size: .26rem;
+    margin-left: .16rem;
+    padding-left: .16rem;
+    border-left: 0.04rem solid #000;
+
+    margin-top: .14rem;
+}

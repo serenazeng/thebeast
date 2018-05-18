@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    height: .96rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: .026rem solid #e1e1e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: .3rem;
+}
+
+header .header-left .menu-icon {
+    width: .44rem;
+    height: .44rem;
+    background: url(../image/menu.png) no-repeat center;
+    background-size: .4rem .32rem;
+}
+
+header .header-center p.title {
+    font-size: .3rem;
+    margin-left: .3rem;
+}
+
+header .header-right {
+    overflow: hidden;
+}
+
+header .header-right img {
+    width: .44rem;
+    height: .44rem;
+    float: left;
+}
+
+header .header-right img:nth-child(1) {
+    padding-right: .3rem;
+}
+
+header .header-right img:nth-child(2) {
+    padding-right: .6rem;
+}

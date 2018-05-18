@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* 装网页内容的框 */
+
+html {
+	font-size: 13.3333vw;
+}
+
+header {
+	width: 100%;
+	height: .96rem;
+	line-height:.96rem ;
+	background: #FFFFFF;
+	border-bottom: .026rem solid #e1e1e1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: .3rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header .menu-icon {
+	position: fixed;
+	top:.3rem;
+	left:.3rem;
+	width: .44rem;
+	height: .44rem;
+	background: url(../image/menu.png) no-repeat center;
+	background-size: .38rem .3rem;
+}
+
+header p.title {
+
+	position: absolute;
+	font-size: .3rem;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+#member-info {
+	width: 100%;
+	height: 3.06rem;
+	padding-top: 1.5rem;
+	/*padding-top: .54rem;*/	
+	background: url(../image/member-info.png);
+	text-align: center;
+	box-sizing: content-box;
+}
+
+#member-info .member-avatar {
+	text-align: center;
+}
+
+#member-info .member-avatar img {
+	width: 1.36rem;
+	height: 1.36rem;
+	border-radius: 50%;
+}
+
+#member-info .member-nickname {
+	width: 100%;
+	color: #ab916b;
+	line-height: .39rem;
+	text-align: center;
+	margin: .2rem 0 .1rem 0;
+	font-size: .32rem;
+}
+
+#member-info .member-level span {
+	width: .96rem;
+	height: .46rem;
+	line-height: .46rem;
+	background: #1e403c;
+	color: #ab916b;
+	padding: 0.05rem .2rem;
+	text-align: center;
+}
+
+#member-nav {
+	height: 1.05rem;
+	padding: .18rem;
+	border-bottom: .24rem solid #E6E7E8;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: content-box;
+	align-items: center;
+}
+
+#member-nav .tab-nav {
+	font-size: .30rem;
+}
+
+#table-group {
+	width: 100%;
+
+}
+
+#table-group .table-view {
+	width: 100%;
+	padding: 0 .3rem;
+	border-bottom: .01rem solid #E6E7E8;
+	border-top: .01rem solid #E6E7E8;
+	height: 1.24rem;
+	position: relative;
+	box-sizing: border-box;
+}
+
+#table-group .table-cell {
+	width: 100%;
+	height: 1.24rem;
+	padding: .4rem .6rem .4rem 0;
+	position: absolute;
+}
+
+#table-group .table-view span {
+	font-size: .30rem;
+	position: absolute;
+}
+
+#table-group .table-view span span {
+	padding-left: 3rem;
+}
+
+#table-group .table-view:after {
+	content: '';
+	display: inline-block;
+	width: .16rem;
+	height: .16rem;
+	border-right: 0.03rem solid #2d2d2d;
+	border-top: 0.03rem solid #2d2d2d;
+	transform: rotate(50deg);
+	position: absolute;
+	right: .3rem;
+	top: 50%
+}

@@ -1,0 +1,74 @@
+/*@charset "utf-8";
+
+/* CSS Document */
+html {
+    font-size: 13.3333vw;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,th,td a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .24rem;
+    color:#2b2b2b;
+
+    font-family: Verdana, Microsoft YaHei, Simsun;
+    background: #fff;
+
+    /*line-height: .48rem;*/
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+input,button,select,textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+    p {
+        text-align: justify;
+        text-justify: distribute;
+    }
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+.clear:after{
+    content:"";
+    clear:both;
+    display:block;/*万能轻拂动法*/
+}
+.clear:before{
+    content:"";
+    display:table;
+}
+
+.over{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;height:100%;vertical-align:middle;}
